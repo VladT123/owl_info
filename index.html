@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="css/styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body onload="owl_wisdom(this)">
+        <div class="headermain">
+            <h1 class="hmtxt">Owl info</h1>
+        </div>
+
+        <div class="wise_owl">
+            <img src="resources/imgaes/output-onlinepngtools.png" alt="Wise Owl" height="170" onclick="owl_wisdom(this);">
+            <div class="wise">
+                <p id="wisdom"></p>
+            </div>
+
+        </div>
+
+        <div class="return">
+            <a href="index.html"><img alt="Home" src="https://images.emojiterra.com/google/android-11/512px/1f989.png" width="150" height="150"></a>
+        </div>
+
+        <div class="txt">
+             Owls are birds from the order Strigiformes (/ˈstrɪdʒəfɔːrmiːz/), which includes over 200 species of mostly solitary and nocturnal birds of prey typified by an upright stance, a large, broad head, binocular vision, binaural hearing, sharp talons, and feathers adapted for silent flight. Exceptions include the diurnal northern hawk-owl and the gregarious burrowing owl.
+        </div>
+
+        <div class="txt">
+            Owls hunt mostly small mammals, insects, and other birds, although a few species specialize in hunting fish. They are found in all regions of the Earth except the polar ice caps and some remote islands.
+        </div>
+
+        <div class="txt">
+            Owls are divided into two families: the true (or typical) owl family, Strigidae, and the barn-owl family, Tytonidae.
+        </div>
+
+        <div class="txt">
+            On this website you can find information about Barn owls, true owls, and how they are depicted around the globe in mythos and stories of different culutres.
+        </div>
+        <div class="txt">
+            You can accsess different parts of this website by clicing on one of the picture below that will lead you to information about Barn Owls, true owls or cultural significance of the owls respectivly.
+        </div>
+
+        <div class="menu">
+            <a href="pages/page1.html"><img height="500" width="400" class="img" alt="Barn-owls" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Grass_Owl_adult.jpg/220px-Grass_Owl_adult.jpg"></a>
+            <a href="pages/page2.html"><img height="500" width="400" class="img" alt="True owl" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBYWFRgWFhUZGRgaHBwaHBwcGCEaHhoZHBocHBoZGhocIS4lHB4rHxwdJjgmKy8xNTY1HCQ7QDszPy40NTEBDAwMEA8QHhISHzQrJSw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP/AABEIAQwAvAMBIgACEQEDEQH/xAAbAAACAwEBAQAAAAAAAAAAAAAEBQIDBgEAB//EADwQAAIBAgQEAwYFBAEDBQEAAAECEQAhAwQSMQVBUWEicYEGEzKRobFCwdHh8BRSYvFyFSMzBySCkqJT/8QAGAEAAwEBAAAAAAAAAAAAAAAAAAECAwT/xAAiEQEBAQEAAgICAwEBAAAAAAABABECITESQVFxAyJhMkP/2gAMAwEAAhEDEQA/AMSqyam4ItNTVEAub1EMOVKuiQRXFBNGaABeollBkU8ltQuATertuVexMQqJm1VLjSN6PUUfeLqAY6Z58h59BRWPkihh17gi4IOxBFiKCzeXMBgLVoPZLHwsRHy2Kfi+BifgPNR25+c00w2Wyn3PQ1B0g702zvB2QLIIJWT5yQR9KXLhDnRk9vJiaeVcRNXxGpO82AriYfWnKrx8uJ8Jqt8JtiasxsuQZU1W5PM0mZVDDA51cMcILXqoYM3mrUVAL70iGGxMXVU8FKNy+VkE6TA5xAA7k7ULmXtAj0oz7jaOJaoKYriqTauYmHexonVkXmuYgNWmZqRcRelEEuIRUfedqvcWtVOs9KImS4Q3NWIkHarMADnROpY3FASWqZ+teJVvOrcJEa5NWHLILg1eRstKAm5qC4QBo91QcqFeJkbVKZAxjYgKFIrNu74WJzB+JSPyNMcfi+GgiZI5C5/Sr8pnUzKnDOGVmSrkTeIkd/1pvWEs1tJwvjvv8PS9yoOo89JsSPvS3i2WCYjSwgmVjmp+EDrWVyOYxMDEKlSDcbb/APHrWwbDw8bLEuut8KCttoK2QxsbA+VQufqoN/cmfHRPxT5CYjefKmWJlHVA+nUpi6kNvtaZpewAOtbKDJUk2YCDv2tPSh8dExPEE2O53EWAnpeaspYs4yspYGQpho3B6Eda8uDrEpfee0b0eqImX1MrKNe06ixCxv58u1XYWdU4Lt7vQibQZkxF+4H3qXr/ACYQOWwkWWYagok6iVQNMQYuQOYtJsKKfOYWGgdSrueZFkB2CrtM8thWXzvFWdRh/gUkgd+p6m+9XDheKqB3QhTzP6VW57lm02zT4jXJiZjlPUjrXcSdgKqwMQDYG3UUYmMCLC9NfqAuJgkiarCXrmLjMLVThO01OlVbAvVJwJvNSxK4XpRUsCLVzTU8RybVwJ3oiZe7m1e91pO9exkYHeoLhNvM0RXpE9Ks94q7zQ6JBvXTiLN6YyyvDhj2q9cusEsYFBjNAUVhlcRgLgCCTYR03/lqYkI1HDOBM2MWYLpbkRNhy2t38q26cOREkKCw2YDa8m0wYKjbv1pZk2CISDM22Eyehbt0p8iKmGJO4F5vJ+9R8flG5YP2ty40qzBSQ3hAMb7X529KZZZHTLLpI8DyNIsVIO5/EL3PKreLcCfEV2LwQbIxMcrxb6GmPs/wvThIrgD4lbU5ci8wCRcc9M2P1PhhkfLzslfC1o2kCdWl9JJ6g9ZHPflVD5NlTbew8hJvHnWiyGTGGWA3YSTFobUBAvyBO8HcUdi5dAo1H8Jgb733G9xHpVnqTZTMYS4lnfSqiSBzaCTA5kT539CfxbJA5BAi6VCqY2vv4idzAPnG1T/6Z70tq6woRgYsRpPhmZX4vPeKN4pwR3RcIYulQgBCiTYyxiSR0vUprhVuFhPZ7gzOQ5sBtKAgmeUzyjlW2xuDO6GXLWgiOfXSNhvyplwvh5wFRBpZeTH4jzvAgmmWaw4Gubi9pEjmD2/Sp65V2OesMvlGf4a2E99mMb7HkKnh4ekbVveL4KMD4BcWDLawtI/S9fP8zjeNosAYiZjsCQD86rl8bH3l7Evc1VhOoqtnryaaNjLr3MxVWJE2q7FxREChFBmkwFdiLtUhhiuAVZppxWITNzRuAwgmqk0kd6vRIFMk1TMp3oR8veZo18O16FYEUmZcGGItTLgmDKs5bcwABsBvJO5mRYUAuHO25sPM2rRYeABIA8AO39x5gxsKTH3G5aCACWN5FiRboOZpjxXDLIN+0Np8tr0Hkr945QOo57A03w2DAaj9/wCf7p8vinr3Ypf6/U+F/UvrRiUDwdaWKspIlu8bHzpdj4mdRXOO67QFNye4AI+tfQ8xgqyFWVdIMjUmvyhbR9qFyXC8Ji3htYr4IU9NxE9/lU/Dv5L8vH4zzaH8nPxPHk/277KIcTLJqI96qlWUwCLyBeT673pg+QLjQBBG9gwEmeccu1DDBfCLODpAFyVmDcHT0Ej5UDg5jFOXwcdW/wC62IQ/KzOoOoDoK1DbBcqfbXDbBy6YaOVd3Cl1tpW7NeZ+VZzK4HElYKhGncOIIIgb3k7V9LfhpfST44jpeT8V5uN/rQi8Iw9ULqvGoa4HiO9iJ2+tY/yc9/8Amh+7Xjrk8dG/pkfDM9ncTFxMN3TQgUO6IFPvDfSGneIJ860j2w4LAyL/AMFTbL6AEVAidAAOt4HLeq80vhj9e3atDTkOnX80qPShn+QL4elEiDNmkXJmJA9BWI9q8iUxA4RdDD4lsGYciOTRb0rYHEAaGAgWkSdx52oT2hy+rLPA1EEN4dwRzjpEg9JrM8VP5vn6p1qDpyFE3rioOdXkbDjBrrIBzvUmN7VYMIczSyNqEeK4cc1ZiMo2qA8qcTNEiusTG9SFeXDJNEVLMSPFXAlXvhHaqnBAiiKzIYR16okqCQO4FvrFaThrEwnxR8Td+YH869azeQzJV1HUqPLxL+n1p1hZoZZG8WssxCD+5ixMDtJ+gqX3DH8QzSYS+GCwsBvLfn/OlGpmGQBypC7ksYkcyBE6fOJm1QymVTCwjiYvieJg3lzsB3/3UM1ikMi/i3xG30gAEqs2BvHrVfHKd2bnMoV1HXtIVVYyDtsD8qTf9aQ4xR0OHGkrMqSZi0EgXizRc77xzh7JmcZXSwM+EAEsgMKFn4UsZO7Se0PsH2dRMLFxcREMk4jeEGdNwsQNQECJ58hT/tLxDcQx8RkY6QVAgxuPMcqQ8IzBOXKE3GILb+GYgdb07XFbACo0lPECDBOGbEMGkeGWgqbbRGxRcPzCjMu8qqFBiKTZSLgwW+FtXXa9iYBvnoB/VKbbnDx3VLrbTtIBIHOTZQOprNn2iZQWfAXSWjwYokXhT4wuobfDM7xXcLAfNF8R2K4QAhRBDKCp1E7spDML2lbDenuW9l8NQyI2gWOkXUTy0mxQ/wBvK8dBn5fVfg91LcRRgHBAsCbiATaLbbihE4hfUACD4ZjUsz0Bvbp3oHivDtBKGNFg+kw4H4WUjmORMxA5VbwBHdnGvx4ahG6Yi7qzKbarAkjrSTp8TEPM0XJBpYMCTeCLHy/eg8xk4R1XcKzQTuux0nsY8pFHphEOiFoL6ik2IZTdO4ibdqp9oc0MPCGN+LDcah/jOnEQ9ipPqFPKs3no6q+Q83yfCcVB3v2q3PZZVxXVD4A50/8AGbD0FvSue4JPatfMqhhJqZURvXXSKpY0RTRVFS97QoJqQQ0tjJqmOKmz9DVSYY6VFUp6z8V/vTHWoreuQRVbgxMxRKjmMG0jeQfO4t67UdguisuM7AohIQbguPjaOart5is8pbMYy4S7Wa7adQENY9xt5zROcxzi+JVCYGGNIAFr/hX7nzoAWStsMtmiyHMY50oxBw0JgtpmGI3gn5/Kr+L4ATJuztpxMSH081VvgQ9zEnzNC+z2QfMf+5xjqCicNTtb8R6La3WOgpTxLOvjOVcyzPqI77AdrTVb5wkH3X+wxxExVGGgLGQW5xB59B+favpnEsR1wSWMIiyR1MbHt+tZ7gmXTLKxJHvDpUgboDeD0NvtTj2oznhRIsVkj+eVG+JZrYvLZvFfEKrjThM41h1BIGkMVQgTYR5WFPM7w7AzC6ILKHIYg8lLKqGPwzJJ3Nqzz5PS2tZmCP8A5R4iO8MK3/slw4f0rTd21T1ncH60YM/JAcKwm0OjQRBwwqjSoRTAUDlb70YyZlFZ9QBCaQSOk6SfWi/Z3JMmJiB1hbQTzPW/aj/adf8A27iJBBBHW233oPEnzfLW45ivjtrENYEeU2Pa+/lWx4PhNPvUX/yYY1CJIdNiOtgfO1YfgmCWzSamkBtzuR38q3PEeKnLOoUQsaljsYI/L1FGs0+pbxfiQd0TFY4bo/hddgwMeL/Gw8pr3GuKa4RioadLk2BAghj1XwgHoG7UdnMrg5/C9/hiHE6lHMr+xHzFJeL8OTHw9WAYxsIAFf8A+ix97EfKoOpvJYrP4QTEZd7yCDMqbgz5VA4wozG4YRho4MqyHETtpaMVJ/xJDDtPSlTpVPiZ5pO9cYCKgErwWlPKIrwc1566DRE0muA13Dw5qw4fejJXg00HnMdE1M8EINWgiQ7MCEXfYHxHsI50axCAsTYCT5Ck+dXTmAuKA414Z0gwL6GdQAfENICyfkKb/smaZXgQw0TNNiuzQuISi6QC4ACauZkxbb7ArgEYekERi4ios7KqowY39PkK2/tLjKuCqkaQyuyp/aqJ4LTE6mB6Wr597wFFbELKcIFMNRzdhN5uFG5/ep5/MNseF8QOFh/0yyXMljvYG4nn+EetVcKyLrmhium7F9J5KPhE9rXofBz6f9QwygBV0UTEBiYLMPkKfZfi4zOchR4BZbR4VEk33vJ9BQvmD1WYGTcupcHQX1vA3G5+e3rR75hXVnexCLAPM3n60Zx3iyIyYKxcBmPrA+x+lLcJTmMXSq+FjoW1tItN/U+tB4Mj26y/huG+YdNKkIq37mSf2rbezmIyYhwz8I8R8oI/SmKYGDlUgAatPqeQ+tDcAGrHd43UT0mFp7nuM31NONBlw2Ki4vboKGyOZXHwiCL2MdiJFNfeBl7GVPncflS7+iGX8a/Dsw7Gm7TIV9nMNMTWLA7etqzntCzHVhOsssFD3HTqGBI9e1fQsziJYzKnmO/8+YpH7V5JdC4yeLTvH9hiD6H7mkiTHWxns3rwcSVm5uDtexBjzqfFMm6cQUI0JjEkCbh41FD5xqHl2p57IYgdmDgk2IJHoQfTT8qSf+p5fAxcDMJMIwNouqmbN/cJI8mFLnJq7L/a1FXEjBK6GxUXEw/xYTtKl0M2RwxU9/rlgm9bl8o8tnWwy2Fj4LB1i6yfCbXHhAM8m9KzPHcJA6vgmcLEUMp6PJ94jACxFrdCKN2Z4la4YPOuPHKrylqp93enFUqTVmivEgVRqNE/c2xMWNqrVyanhqBdq62IvIURA8WxCMIidyB8yJ+laXg+GiJgjFhsZ8e03KiBvO3hEeZpIuQGNi4KEEqWlv8AiFJg+cAetF5jCT3gC4hDI+/OSQNhvAgT3qOnEgN2I9qcyMwQqSCrYilifDoWQ0RyEed6sx+BPjYBdRAAAAAhnYwCWbfTpEQPXaq+C8Od8Vy86EZtCmYg7wTa4F+8eu14VwuQPfOTBthodKLYfFF2O/OOwph+aV/F82xeE4q4+Av9o0mOQ2iRaeQ877GtPxHDXJlAi+NrsY2FoAP82719Aw8jhkghV8O1tqWcW4cmYAkWBsetR0tRm7K8TIIMH+pxngaZ8/7VWeZ/OnfsfmRik4pGlEEARAFo89utfN/b3P4znCy6ghFOuB+I2CmO3Lzr6P7NYPu8oMMiCVl+dyL/AErQ6MpeWScU4y2Nj6FnxNJ7Iuw7ST9K3PBVCYSSIZgCZ718z9m80HzIQb4jx5KCfrc/Kvq+PEeW35VP6qfxI+F5tmfMYXK5Q89RE/f7U0yHElx8AsQJAKsv+Q3/ACNYI8TfCz7JsGMr0npfvNPMTXg4wZBZ2lge9iD6n7VQu5Sn3G4eGHwj7tySpMqfrb60E+M6YGIrqSkEm9wD8Uec9aAfFfK50sD4GgkHmpH3BkVtsVUxEldMMtpFiCNiOnUUx2EyynsrncI4bCxdZkjd15Ed9pFJ+MY7FkOLh68tqnWNJ0Xi4mYne21L+CAZbNOj+FGZlifgJJA9Bse1VniKnFxco7DQfGhO2oESJ6Fbz/j50hM8w8u+L6RhNhtgpo+CABG68o/KsHxz2WZHYoynL4hDMmzYeJtrQG0QZYWsD2FLeB8UxsHGfAAnCdgQLyhgQ69VIAJHka+hZrRi4JRjccxYgjnajlGOhL4rn8s6OyNupjz6EdqHDNTf2rUJjlFUKAosBA8wOQ7Unw8UczQzPVFcMzXvdmrRiAneu+tONiUwyd6muGBVysDavHA70ZPanFxdCs+vQVEqRvqB2HnVns3h68ris3xPiGSdyIUi/wA6pzeRDrpMxIPyqvL50I7YWyQrExIVgNP6fepc3GXn6t5wrLKVA94zgSCEJUC1rrJNup2J9dHwvLoLKqjqCATPnWV4fxgqNLcjpt1Biicz7UFB4EZ3aygfSfnTfilIOz72s4suXwSAYZzpEWgRLfp60jyXGD/TYmM4IUABQbTqIW3zoDimR1lMXMvbdl78lA/nSiM3lHzGCWUacOwVdtQU2PlP2qAxWv2BF+ymEuZxXxcRAQonyM2A+X/5rR55iUcJyU7dNqzmQzK5TLBdnxHIv0AsB2A+9N+DZzWmIx6qPuf0qviJSru2W9hcmy5tnZDIkLOwLGC3yketfWf6fw33pbwTAVVDwJafvTPHxd4PKfv+lPnmXXVlPafhCkpiKslTe148P6UbikvlGdQGfDUgyNwoB8/hg0Vls6rnSbmJI+UfeormVw8cKPgxEPlqS4Ed1J+Qq/uTZJs2M5oEQ6gg7XE2+V60fDXKIqknSeXIH/dZ1MqqZpgnhEgraxBEgfIR5inHFn0ISSB4gyyPU+Rkz61n97W+sk3tFw33uOHUAEgatwbeGflHypLxf2XKKzr8aiV8vxDzg/SthxvHC5ZMyBb4vMM+3kVNGZbGTFwsN5kMq37xep6Nnz1lkPYEK9nHjUWJHQ9fU/KtdncqGBEeos3p350p9o8icOMzlgq4uBDldg6EEOjdyOf7Udwzi6YykDwsQGCmxANzA6fnIqQ+MdPy83zz24yZV0LNqsRJHi6wSLHz/wB1k0RYuK+ie3OVb3RaZAYEagNQ5QCDcQTuK+egHpWrLn1QCjlU4qJUztVkU6ooE1ZrYCurhzXXblRFHDzEXO1LsuAcywe4Zl1crStvKJo4L2qfD8qPea2jme9iNP6VL+ZM6wMtDkLJNoAE8o3O1P8AKcPEgxBGx3qrhiEssL/aZJ0jTBkgbmSTyrS5HLjnBjYgnnesme2e4nwk4rIGJ0gyR25j1p7nMQJhiRC7AbQApNvlVjuAdI5+Jj/amyg9zFh+lJfafOhzh4KGZN+e5gDzt9aBQWeahKeNYD4q4Tx4VLEeTEH8voag3FmwFVI+Lc9wIj+f72mey6rhog3JRB9Jpfm+ADEIci2okeVgPtPrR8uhj+qTvg2cnCw99vzqrM518PF1M3hIAA9T+49atyqBFjoaUe2OL/2lI3BI+YB+gE1Z0nlo+IuEM2abCzJYTpJnzU9Pt6UZxbiIV0JshMo/QxcH+fpST2UzIzKkuZZTpPWJlSBPf70+4rlB7ueUiROx2B7f7quTyy6fUux+Lp73Q4ENbVIIDQYvyblBA3iedd9rsxOWRRclgZ2mFYFo7/zasdxvJMgMmZZlO91hYn1Jg9IrZez+GmKmAmJBbQzG/wDmZmd7Hah8jM8Y0eKY5fhQT8Son/4iRvzA+tCf+n7OcEAzpU2vYgmQY6gyPQDlWubhyOCkQpBEDpSf2UdEXGwiP/C5SP8AFpYfeodyoycsgJMyQY+1J/aPh04avhKyvh+JGWNQ/uXe6kWIp7mkiTFxYx9PuPnQhxbfyZ5UuX6ZP5LMcbzCZjLHQ4JCzG0lfiEG8iK+ehxX1POZfDCOulfESSw21QSTPUWv3r5nxTK6HaBatvqkhXaanIqpagcNqKsmQxSvKqWOsztU3ftXsPDJuP53oqpoTtTzIZYRqnbSJ2iWA35fzpQOSy9+R/a9P+G4AX4tw1iZhWVjA2gbb2N+Yoo6ZhkBIFrHc2s0mbcvpR+Y4mEVUQBsTElUQR03PRRuT09KBzOdGHJbfkFvqJgAL1PKKjwfIlHONiXxHERyw03CDtf1PyrLA9R78s9TIhE8Ta3PiZjtqPMD6DoBFZxcpOYVzcAz5nenObzcwo5kD51B0AUN+EEyehgx6TA9RU9YplfOh5qeI57Xm8HBBg+Et1G5ken3rX5kKFty+1fM/eMmZw8Zr3AHaVIHLkLf6rfvj6gB1B59KsxGl8JA8Tx9BVvwt4T0vsT9flQfFMM4iMik3Ei/Xn8qvzuHrTQeYBFzv5UnxcV8LDDt+CAe42/f51D1uFQZLvZHKtg4j3gyZHXf8j961/GwHQxvpmRz8/512rOqrNiDGw/geNQGx/eb2pxxbF0hFEziFVHofFHzq+etMp6582d9ssIRgCRqe56EKBI/nSr+BocPNQJCBNI8Rj8JPS3bai+OcKbFzOFtF/QRaTzNF+0GH7o4DxY4iqxi8MQvy5etNHYEybPmdLR08/sKyXAEds9mmUEK+nr8QAFpAO8n9a1mewy5BusxG20SfL9qEyWGmGSVAKsJN+vPyqBxxn9aR2XzGtFYm5Hi7OGYMo8iCPICgsVOe1iQecA0u4JnJfHwv7MZmEmfA41yD0kn60bi4gveUEajtAF47yYqe/CVclVjMzeHeZG1oAvz2rK8f4VpQkeZt2UxbzB9B66lTqsfiICi3w6viM+ZI9IoHibkqw3EEibEg6YMi1ypgQLCa3/j6HnzY9CPi+YoL35VacSo5lBrbpJqHux1p1zBQDReRwp6+nKloWnHCWHO/aJOx2FBLr1M0yxFzHMFh+KwJ8jHOmeE4UeGJIJIiNUG8gWDdT/AFjEsJ+ESDqEMRCgFT0vP7V7BgbHxD8Q+Lz/yE1HfXxjnnY7EQNpMAL+EgTpPfpzonABkBt45bH970v8Ae84gncDZu8daMQkSDz8S9IAuPT865fk9NuAFapllRrXZmPRVO/qPvVvFsyFy2LFoQ6bfLfaq+FvqLuwiTAtNl6x3+cD05xXB97OGCIYHVyIAAJB7GRVj8SnNawZFcREblY9L9Py9KvzGaKY+GtyWTEje8KCPWZqGUUogBn5cv4KT+0GaPv8AKuDHxLJtEwJkcvL86056Gnrm2uNlQAI2IH0oPO5YOjKRIIIYRuCL1PhHEExUlTGiUI5gg3kfL0uKtZtzaBv+tLrnHxLl8WH9hM8UfFymJvhsYJ3IkAeto9accSdmxVUqYS4/5W27wBSz2iyrYWYTNYanUhhha6xBE+VwexrUQjqHHISCPKdW3l6EdaCbUZNy+KXn4QFEADdZmL8jXvafMK+HgoIJfFQdYGoNMc9qF4CGKumxZmYwNrwOsAQY23q7OcPJZGMn3Zn1q3rxSHmc515RzI0gjV10yJFLs+SG1AQu3nFptyovGI9w5m2gg9DYx5EHnVWIQ6D/AI6ie5vApdmmxy42S4lhk4qPgnS4Yhx/erWhvLlT/BRlC641WI5jUZuBzIqT5cLpNjAMgxJ2v8qtIWBpQI24MCRytp3PKD17VlyPXuvrrPUA+XOsgGx3m4EGZuZJ1fWfUTiA1LvINg0QD4WmAeVgPn1ol8VSI0gEQGWReLC/MH9qV8Qz2lTIMm1+nQdF+9dHAFj0rYfGXxEEc6pIFE5lvETG9VaKqorvdmmnCp5iR/qlIdqZ5XG0iOu/MGYkfQfKkT6neHiRN787ybW8Q/OojEJiwjfuIpeuPME9xPMedE5fGm/r6bH6XrL+X1PgmuWNxN7j686aYOEGGgqWCk+Dod1Go20wZ+QpRgYgWSRIAg915HvO3n5U+4YDpvJMAsQBJ6Cf3O3Kl/HyZPpdgczh+7hR63JjtI/KocJx9eI5J2IRdzIWTyAm5Ik8htVudAO5btNpJ533r3CspoJEwZ1rykg3F/l61n76wq3OdZs6sV1FlUFSQOfmSen50j4hw3U+lx4gxYRtFobrf9af4Gn3SvE+FQO6ydRjaCfnFBqyhwNJ8SECZIkMoEHmPF9K1OQafkyb2eZsLGxFvpYyJ5z1t6f6p/xDGZVTEHjWfEFI+GQWHpAIPKD1rn9EqgQJIgE7bD9h865mgGRoAkjz8V9Jt9/0oN8jJzwl3PYPvEJBBlVIgWmLwT0t03ojhmXRcPSwMHwiOUmIpZwDHYA4TCALrufC0lhb/IG/amue8LIot45taAoYgg38iN9qOT7hfqG4KFD5htMAPpHisQBFr3v350fnj4YLcptzPSlmSARnUG7ObneAASfSbnv3o93l3AKyqAEneWkkgDeRpv386pP607/aV4WYZkKRIgiO3X+dKI4ekIA1yh0hRa4gSeppZkMbxTvHT15cx+1HZElHY7KzEgxtAuo7n/VRw/I819GRrRcFNWxJWJmOQJE0vdjBvJtIiDqM+COUfnRr4xBgGN97+ppbnsfSZ5NvDTeDcE3E7fK9UclCsJjMJExqMmAZMC6iP5saRcQxSnTpe/rEfwGmzYkgi4HOAJk/3sx6cgaQcaxtRv8Azy7XrTkwp9sjzmOXefyqOirxhrXDFOqkvirk6TvVQMV4GiqLwsemOTbnsdxO03+hkj5UpRxammUfxDoPKOwg23+wrPs2Z4tBgIqqAdQIIgSGBkxoEdyI9KcYGEAoH/cHrb0ANhSDLXYRIWeQiGNrjlv3F60OElvhJ5Tt8gfyqB/EJDOgLCSTEwPK9/lV+X2g33YH7ieRn71TikavCLbdJ8utWYe0zHPb8+flWfH/AFV1/wAxXs9i6suvNpZdo+ElRAF43PmaV59mR0PNGvvsQR1te8dqaezalUYEwC7XEkmWNhHc1bxDAEMyq14uesxWneoJTz4Ugv6uWCEhtS2gxcXJJPa81cLqI8wYJE7jltQGaDFbCWXxAExcciDYgiQYg3O+1MMtjahqBN77TuNzGw7CpHXZphRU6XDAWNt+xNrDny/hPzGGFXUxKgCzR23MedDZJFlgdp1DkBqPiNiTP61fxDG1lcMExqGo3FlIbSw5myiRuHrYPFmvmW4OCy+NrEmSOhY7ETy/Kr8mSyYpB3JI5gBYAA5nYwDtNMFSTuq/DE2Bv8PyqtwFw/CAAxJsLEtO3YL9T2qc3Wfy+rNJ4Wtb+A0ZiYzaR/cCCCJExvI8p617MYZKrKdo9Kjg4Ij4cQDz1COYiT+tZcD6LTpPdz3hYEi/Iee8jy/WqM4nhvsL7chv9bU1VbXIBImAPgU7H/lFBY8dLWMRyElQfqx8hW5zZfKzubcr/NrTb6D1pHjvJM3p7xfEAExPkNuv1j/61mma9XmSLxxbRFVe8FdIqt1vROmVrlTRJ50ScuOVFUJTPh0fiv27c/Xn6UtfejuGtcfzy+9Jh9Wz4Mg1aiwWBvE6l/C0Dnv/AC1OcTFkf+QN5CPSlfBcWF+Ir0hRy3F+WqbcqLzeaMGWBjtBnlN/ypPJlnvmFfMDVYzePWmi4HhBEEWBkxAJgkeUUiy2GS+qAbi21rG3qPrWmwrAMAVKi8R0PIzO9Zc8+bR68V+Qw1UmCm8knvyXuYPy51POixLnSp5G0yIHl5UKuIQ061MiLiCT0t50R7wEaomRdmM3McuUem1ap4yjfMmx8AC8b7mb/vyqOVKhgoYqrKxMGY0X0xuJBm1X5squsWYrF52kCB23+tCO0FDM6WEyYBnqIjTJm1ZBlpuxtwdR7gLvK7EEdTuKuyyWQv8AExgtpm55FmuRAgR0FU4LeMqZlgDJEnfxGxgKOncUThRrAB+AajA1Am+l1bZfCWn0jkasGhYrHxQiuexXo0keEg870JxHE0qiyTpAAt6fOvZmSA3INMqeYuojval3F3uAOtr7kb+mwmm6csj/AKLuKo0Eh5ndSbyLwOYMDahExxMTfn4yNrkDqO9F+9lDImBDAMPDz1SYJis2+agTMCBG4tv9d/Klzzk12eJnAAVnY9QZJuCW59AP8b0s4hxFQGE/Wd/ubUizHF4NjfbralWPmWcya02RzF5nOknex3HfrQxw+dc92IFEIw00E4Vl51TRbMIqGHgSJinFBQIq1HIEVFR0rwW96VVUxvemHCxJ9QP9VW+VUixv6/kKlh4RVSFubEeeodKWUra3JPoSQewlZJO/Tf1NdzOIz85BEglYvuI+lu1LcAtp6GbCTtBG0iY/m1G4DosgGSfzN9PfvVNEdkMHVBjxf4sBEcjfrWhRxtL6liVtJEeE25XvWay+Za4CmADqDDUY7SJUmO4pumPCm7DbwAFuV4e8DmPO9LMiP3Syx11AeHnE9aHTMCFuWsOYgD/4jckbXoLLZ5XJ0yywCJIMb/E0zy50uzHEAsEmYmb2mYtPlTYjeI4//cUlCG1QNJ1BoUzNp5dKr5gTLEa2/tUfhHy+01nzxJWxtPjES3hOx52G24+tNnxVKkeKC0kagrEmAoY8lP5edT8RnqV+HnQr6toNvw9/LePOKMw8zuZ3mbmCbzYb7VlMxnSjgkggkBp8JBO234e9qYJm1DICbmBpPQ2POwiDelj6ns//AKjw6mBAJA3g6QQQTGx8I25Vm89xA+8PQgDsREW/4n+bUXm8wAui0gxIN4EypBgxasdnVa5DXE7GY5Hynwt5z1pp4yR+bTLxIEd+R2PzApHj5gBSDvJH1t9KHywcjY9uw6dfrROhTbQNRIMk9OU0ZVJil5rxY05XJyTCQPnHrU1yosCIMzPXsRVBL5SbDU1arU+y3vEnQRBF/DEwZvU3BZizASb2Fp8qYRtnEVjPhPyolMHEAjSae4eDMys9J/l6suLQflTynbO5XBLbCjMpgKZJSTsJNgfIb1PLL4mEmNM/SmSKALcjA8qgKlqMLKiRqIUQReZM9uX886KwiifgF+Z58gI6daqzBubD+CoYhubD4Z9aumsQsZKL4dUSAAZ8zfmO16Z5HheoxAnmTDX7QYpbJXYm8TfptWsyGApUWi6m1rxULlQbefLKFE3jlEEfy1KcTEC2DCSSRNhc1rcfDBRpHwi30361keJZdY1c6Y6bJMclOK5nUvhMi0WkGZG9BZlSxJMwTMb+lHoslJ5xPzqGJt6VLUEow8GHJ2nnJG8Ez8qYpiEARzvI7qAfPaqGwxJ8vzonAQSPT8qCHzCZ3K64BEmINthtH7VXw7I6MQO8wP1vbrTY/F86k6DTVhS1TZwOZZSGLEmRYyZO2xqvFRA0jnePPlNS92L2rgHc8qMihhYQABvH18qs0T2mrg3YfIdKgjmdPKnK8mAZAE32NGf9NZTJDHp2896r94REdauwcy/9x2/WmEm9hE7aCSfT69KJ/omS6qpKrqgtHcjvXcM2J5xVuEKvKZYysxkASb+XzFUOGn96KVzrjlXgd9t+lTk7/9k="></a>
+            <a href="pages/page3.html"><img height="500" width="400" class="img" alt="Owls in different cultures" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Aryballos_owl_Louvre_CA1737.jpg/270px-Aryballos_owl_Louvre_CA1737.jpg"></a>
+        </div>
+
+        <script>
+            function getRandomInt(max)
+            {
+                return Math.floor(Math.random() * max);
+            }
+            function owl_wisdom()
+            {
+                var x = getRandomInt(15);
+                var z;
+                const wisdom = document.getElementById('wisdom');
+                if (x==0)
+                {
+                    wisdom.style.ffontSize = "25px";
+                    document.getElementById("wisdom").innerHTML = "Owls are birds from the order Strigiformes";
+                }
+                else if (x==1)
+                {
+                    wisdom.style.fontSize = "20px";
+                    document.getElementById("wisdom").innerHTML = "Owls are divided into two families: the true (or typical) owl family, Strigidae, and the barn-owl family, Tytonidae.";
+                }
+                else if (x==2)
+                {
+                    wisdom.style.fontSize = "16px";
+                    document.getElementById("wisdom").innerHTML = "The wooden owl is an integral part of an ancient and indigenous tradition and art form in Bengal along with its auspicious association with Goddess of wealth, Laxmi.";
+                }
+                else if (x==3)
+                {
+                    wisdom.style.fontSize = "15px";
+                    document.getElementById("wisdom").innerHTML = "Many owl species have asymmetrical ears. When located at different heights on the owl’s head, their ears are able to pinpoint the location of sounds in multiple dimensions. Ready, aim, strike.";
+                }
+                else if (x==4)
+                {
+                    wisdom.style.fontSize = "14.5px";
+                    document.getElementById("wisdom").innerHTML = "The eyes of an owl are not true “eyeballs.” Their tube-shaped eyes are completely immobile, providing binocular vision which fully focuses on their prey and boosts depth perception.";
+                }
+                else if (x==5)
+                {
+                    wisdom.style.fontSize = "16px";
+                    document.getElementById("wisdom").innerHTML = "Owls can rotate their necks 270 degrees. A blood-pooling system collects blood to power their brains and eyes when neck movement cuts off circulation.";
+                }
+                else if (x==6)
+                {
+                    wisdom.style.fontSize = "17px";
+                    document.getElementById("wisdom").innerHTML = "A group of owls is called a parliament. This originates from C.S. Lewis’ description of a meeting of owls in The Chronicles of Narnia.";
+                }
+                else if (x==7)
+                {
+                    wisdom.style.fontSize = "20px";
+                    document.getElementById("wisdom").innerHTML = "Owls hunt other owls. Great Horned Owls are the top predator of the smaller Barred Owl.";
+                }
+                else if (x==8)
+                {
+                    wisdom.style.fontSize = "14.5px";
+                    document.getElementById("wisdom").innerHTML = "The tiniest owl in the world is the Elf Owl, which is 5 - 6 inches tall and weighs about 1 ½ ounces. The largest North American owl, in appearance, is the Great Gray Owl, which is up to 32 inches tall";
+                }
+                else if (x==9)
+                {
+                    wisdom.style.fontSize = "20px";
+                    document.getElementById("wisdom").innerHTML = "The Northern Hawk Owl can detect—primarily by sight—a vole to eat up to a half a mile away.";
+                }
+                else if (x==10)
+                {
+                    wisdom.style.fontSize = "24px";
+                    document.getElementById("wisdom").innerHTML = "All owls are cats running on cat software and having a bird hardware";
+                }
+                else if (x==11)
+                {
+                    wisdom.style.fontSize = "20px";
+                    document.getElementById("wisdom").innerHTML = "Barn Owls swallow their prey whole—skin, bones, and all—and they eat up to 1,000 mice each year.";
+                }
+                else if (x==12)
+                {
+                    wisdom.style.fontSize = "16.5px";
+                    document.getElementById("wisdom").innerHTML = "Northern Saw-whet Owls can travel long distances over large bodies of water. One showed up 70 miles from shore near Montauk, New York.";
+                }
+                else if (x==13)
+                {
+                    wisdom.style.fontSize = "15px";
+                    document.getElementById("wisdom").innerHTML = "Not all owls hoot! Barn Owls make hissing sounds, the Eastern Screech-Owl whinnies like a horse, and Saw-whet Owls sound like, well, an old whetstone sharpening a saw. Hence the name. ";
+                }
+                else if (x==14)
+                {
+                    wisdom.style.fontSize = "13px";
+                    document.getElementById("wisdom").innerHTML = "Owls are zygodactyl, which means their feet have two forward-facing toes and two backward-facing toes. Unlike most other zygodactyl birds, however, owls can pivot one of their back toes forward to help them grip and walk. ";
+                }
+                else
+                {
+                    wisdom.style.fontSize = "25px";
+                    document.getElementById("wisdom").innerHTML = "Owls are birds from the order Strigiformes";
+                }
+            }
+        </script>
+</html>
